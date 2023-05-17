@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 600px;
+    width: 400px;
+    margin: auto;
+   text-align: center;
+}
+.container{
+    height: 650px;
+    width: 500px;
+    background-color: white;
+   margin-top: 10%;
+   justify-content: center;
+   border: 2px white;
+   box-shadow: 1px 1px 1px 1px rgba(66, 64, 64, 0.402);
+   border-radius: 5px;
+}
+h1{
+    font-size: x-large;
+    font-weight: bolder;
+    color: rgb(0, 166, 255);
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 20px;
+  
+}
+h1 span{
+    color: rgba(182, 23, 213, 0.729);
+}
+ h1 p{ 
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    font-weight: bolder;
+   
+}
+form{
+    height: 300px;
+    width: 400px;
+    margin: auto;
+    color: rgba(128, 125, 125, 0.976);
+    text-align: left;
+    margin-top: 20px;
+    font-weight: 500;
+
+}
+form input{
+    width: 400px;
+    height: 70px;
+    border-radius: 7px;
+    margin: 10px 0 15px 0;
+    border: 1px solid rgb(38, 103, 144) ;
+}
+.hero{
+    height: 200px;
+    width: 350px;
+   margin: auto;
+}
+h3{
+    height:70px ;
+    width:350px ;
+    background-color:  rgb(38, 103, 144);
+   padding-top: 28px;
+   border-radius: 7px;
+   color: white;
+   margin-bottom: 40px;
+   font-weight: lighter;
+}
+.clk{
+    text-decoration: underline;
+    color: rgb(0, 153, 255);
+}

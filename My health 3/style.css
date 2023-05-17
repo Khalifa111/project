@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 400px;
+    width: 500px;
+    background-color: white;
+    margin: auto;
+    margin-right: 550px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    height: 400px;
+    width: 800px;
+    background-color: white;
+   margin-right: 400px;
+    
+}
+h1{
+    font-size: x-large;
+    font-weight: bolder;
+    color: rgb(0, 166, 255);
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    
+  
+}
+h1 span{
+    color: rgba(182, 23, 213, 0.729);
+}
+h2 {
+    margin-left: -100px;
+    font-size:x-large ;
+    font-weight: 300;
+}
+
+.main{
+   height: 300px;
+   width: 800px;
+   background-color: rgb(38, 117, 144);
+   margin-top: 50px;
+  color: white;
+  padding-top: 70px;
+  border-radius: 5px;
+}
+.main p{
+  padding: 15px;
+  padding-left: 80px;
+  font-size: larger;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
