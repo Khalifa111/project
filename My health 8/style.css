@@ -59,59 +59,22 @@ span{
     padding: 10px;
 }
 .sdq_1{
-    width: 320px;
+    width: 365px;
     background-color: rgb(38, 103, 144);
     color: white;
 }
 .hero{
-    margin: 30px;
+    background-color: white;
     font-weight: lighter;
+    font-size: larger;
     height: 300px;
     width: 60%;
-    padding: 50px;
-    color: white;
-    background-color: rgb(38, 103, 144);
-    border-radius: 7px;
-}
-.ps{
-    margin-top:  80px;
-    height: 80px;
-    width: 250px;
-    padding: 0px 0;
-}
-.is{
-    height: 80px;
-    width: 250px;
-     padding: 20px 0;
-}
-.cd{
-    float: inline-end;
-    height: 0px;
-    width: 180px;
-    background-color: black;
-  
-}
-h3{
-    height: 200px;
-    width: 50px;
-    color: black;
-  
-}
-button{
-    height:40px ;
-    width:130px ;
-    background-color: rgb(38, 103, 144);
-   border-radius: 5px;
-    color: white;
-   font-weight: 300;
-   text-align: center;
-  float: inline-end;
-   border: 1px solid rgb(68, 164, 212);
-  margin-left: 10px;
- 
-}
-.btn{
-    background-color:  rgb(68, 164, 212); 
+    padding-top: 180px;
+    padding-left: 150px;
+    color:rgb(38, 103, 144);
+    text-align: center;
+   align-items: center;
+    
 }
 .ft{
     margin-bottom: 50px;
@@ -125,19 +88,4 @@ button{
 .os{
     margin-top: 28px;
  
-}
- @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-      display: inline-grid;
-      width: auto;
-      height: auto;
-    }
-    .sdq{
-        width: 150px;
-        margin: 0 200px 0  0;
-    }
-   .sdq_1{
-    width: 186px;
-  }
 }

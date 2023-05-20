@@ -64,54 +64,29 @@ span{
     color: white;
 }
 .hero{
-    margin: 30px;
     font-weight: lighter;
     height: 300px;
     width: 60%;
-    padding: 50px;
-    color: white;
-    background-color: rgb(38, 103, 144);
-    border-radius: 7px;
+    padding-top: 80px;
+    padding-left: 20px;
+    color: rgb(38, 103, 144); 
 }
-.ps{
-    margin-top:  80px;
-    height: 80px;
-    width: 250px;
-    padding: 0px 0;
-}
-.is{
-    height: 80px;
-    width: 250px;
-     padding: 20px 0;
-}
-.cd{
-    float: inline-end;
-    height: 0px;
-    width: 180px;
-    background-color: black;
-  
-}
-h3{
-    height: 200px;
-    width: 50px;
+.og, .of{
+    width: 100%;
+    height: 120px;
+  box-shadow: 1px 1px 1px 1px  rgb(63, 62, 62);
+  background-color: rgb(239, 236, 232);
+    margin-top: 20px;
+    border-radius: 5px;
     color: black;
+    font-size: larger;
+    font-weight: 400;
+    padding: 30px 80px;
+}
+.ik{
+    float: inline-end;
+    font-weight: bold;
   
-}
-button{
-    height:40px ;
-    width:130px ;
-    background-color: rgb(38, 103, 144);
-   border-radius: 5px;
-    color: white;
-   font-weight: 300;
-   text-align: center;
-  float: inline-end;
-   border: 1px solid rgb(68, 164, 212);
-  margin-left: 10px;
- 
-}
-.btn{
-    background-color:  rgb(68, 164, 212); 
 }
 .ft{
     margin-bottom: 50px;
@@ -125,19 +100,4 @@ button{
 .os{
     margin-top: 28px;
  
-}
- @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-      display: inline-grid;
-      width: auto;
-      height: auto;
-    }
-    .sdq{
-        width: 150px;
-        margin: 0 200px 0  0;
-    }
-   .sdq_1{
-    width: 186px;
-  }
 }

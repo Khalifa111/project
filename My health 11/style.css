@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 body{
-    height: 100vh;
+    height: 200vh;
     width: 100vw;
     color: white;
     border: 3px solid whitesmoke;
 }
 .container{
-    height: 70vh;
+    height: 300vh;
     width: 100%;
     color: white;
 }
@@ -37,12 +37,12 @@ span{
     color: rgb(38, 103, 144);
 }
 .nav{
-    height: 500px;
+    height: 550px;
     width: 100%;
     display: flex;
 }
 .ig{
-    height: 600px;
+    height: 240%;
     width: 25%;
     background-color: whitesmoke;
 }
@@ -64,54 +64,60 @@ span{
     color: white;
 }
 .hero{
-    margin: 30px;
     font-weight: lighter;
     height: 300px;
-    width: 60%;
-    padding: 50px;
-    color: white;
-    background-color: rgb(38, 103, 144);
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 25px;
+    color: rgb(38, 103, 144);
+}
+form{
+    width: 600px; 
+    margin-left: 30px;  
+}
+form label{
+    width: 100%;
+    height: 30px;
+    display: inline-block;
+    padding-top: 30px;
+    color: rgb(50, 49, 49);
+}
+
+form input{
+    width: 80%;
+    height: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: xx-large;
+    color:  rgba(0, 0, 0, 0.999);
+    font-size: larger;
+    margin-top: 15px;
     border-radius: 7px;
+    padding-left: 40px;
+    border: 1px solid black;
 }
-.ps{
-    margin-top:  80px;
-    height: 80px;
-    width: 250px;
-    padding: 0px 0;
+.f2, .f3 , .f5{
+    width: 60%;
 }
-.is{
-    height: 80px;
-    width: 250px;
-     padding: 20px 0;
+.f4, .f6{
+    width:70%;
 }
-.cd{
-    float: inline-end;
-    height: 0px;
-    width: 180px;
-    background-color: black;
-  
-}
-h3{
-    height: 200px;
-    width: 50px;
-    color: black;
-  
+.f1{
+    width:50% ;
 }
 button{
-    height:40px ;
-    width:130px ;
-    background-color: rgb(38, 103, 144);
-   border-radius: 5px;
-    color: white;
-   font-weight: 300;
+    height:60px ;
+    width:200px ;
+    background-color: rgb(68, 164, 212);
+   border-radius: 7px;
+   color: #ebe3e3;
+   margin-top: 100px;
+   margin-right: 80px;
+   font-weight: bold;
    text-align: center;
-  float: inline-end;
-   border: 1px solid rgb(68, 164, 212);
-  margin-left: 10px;
- 
-}
-.btn{
-    background-color:  rgb(68, 164, 212); 
+   justify-content: center;
+   border: 1px;
+   float: inline-end;
 }
 .ft{
     margin-bottom: 50px;
@@ -125,19 +131,4 @@ button{
 .os{
     margin-top: 28px;
  
-}
- @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-      display: inline-grid;
-      width: auto;
-      height: auto;
-    }
-    .sdq{
-        width: 150px;
-        margin: 0 200px 0  0;
-    }
-   .sdq_1{
-    width: 186px;
-  }
 }
